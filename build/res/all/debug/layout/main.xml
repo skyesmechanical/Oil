@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="363dp" >
+
+        <TextView
+            android:id="@+id/textViewSelectLease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewSelectLease" />
+        
+        <Spinner
+            android:id="@+id/spinnerLeaseName"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textViewSelectLease" />
+
+        <Button
+            android:id="@+id/buttonEnterLogDataOil"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinnerLeaseName"
+            android:text="@string/buttonEnterLogDataOil" />
+        <Button
+            android:id="@+id/buttonWaterLogData"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonEnterLogDataOil"
+            android:layout_alignBottom="@+id/buttonEnterLogDataOil"
+            android:layout_toRightOf="@+id/buttonEnterLogDataOil"
+            android:text="@string/buttonEnterLogDataWater" />
+        <Button
+            android:id="@+id/buttonSalesTicketOil"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonEnterLogDataOil"
+            android:text="@string/buttonSalesTicketOil" />
+
+        <Button
+            android:id="@+id/buttonEnterNotes"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonWaterLogData"
+            android:layout_below="@+id/buttonWaterLogData"
+            android:text="@string/buttonEnterNotes" />
+
+        <Button
+            android:id="@+id/buttonViewGraph"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonSalesTicketOil"
+            android:text="@string/buttonViewGraph" />
+
+        <Button
+            android:id="@+id/buttonCreateLease"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonViewGraph"
+            android:layout_alignBottom="@+id/buttonViewGraph"
+            android:layout_alignLeft="@+id/buttonEnterNotes"
+            android:text="@string/buttonCreateLease" />
+
+        <Button
+            android:id="@+id/buttonSendData"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonViewGraph"
+            android:text="@string/buttonSendData" />
+
+        <Button
+            android:id="@+id/buttonELD"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonSendData"
+            android:layout_alignBottom="@+id/buttonSendData"
+            android:layout_alignLeft="@+id/buttonCreateLease"
+            android:text="@string/buttonELD" />
+
+    </RelativeLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/Skye/workspace/Oil%20Production%20Log%20v0.50/res/layout/main.xml -->

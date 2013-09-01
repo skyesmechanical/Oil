@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewTitleLease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/textViewTitleLeaseName"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ListView
+            android:id="@+id/android:list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/android:empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No New Notes…Press on Menu to Add New Note" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Skye/workspace/Oil%20Production%20Log%20v0.50/res/layout/notesui.xml -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Skye\workspace\Oil Production Log v0.50\assets" >
+            <file
+                name="productionlogfile"
+                path="C:\Users\Skye\workspace\Oil Production Log v0.50\assets\productionlogfile" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Skye\workspace\Oil Production Log v0.50\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

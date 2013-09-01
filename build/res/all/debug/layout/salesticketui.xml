@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/scrollView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+<LinearLayout
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textViewTitleLease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/textViewTitleLeaseName"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/btnChangeDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Change Date" />
+		    <TextView
+        		android:id="@+id/lblDate"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Current Date: "
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+		    <TextView
+        		android:id="@+id/tvDate"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text=""
+        		android:textAppearance="?android:attr/textAppearanceSmall" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textViewSoldTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="@string/textViewSoldTo" />
+            <EditText
+                android:id="@+id/editTextTransportCo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingLeft="4dp" >
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="2dp"
+                android:text="@string/textViewTicketNum" />
+            <EditText
+                android:id="@+id/editTextTicketNum"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingLeft="2dp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textViewLNT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewNumBarrels" />
+            <EditText
+                android:id="@+id/editTextNumBarrels"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            <TextView
+                android:id="@+id/textViewLN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tankNum" />
+            <Spinner
+                android:id="@+id/spinnerTankNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+           <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tempHigh" />
+            <Spinner
+                android:id="@+id/spinnerHighTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Temp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lowTemp" />
+            <Spinner
+                android:id="@+id/spinnerLowTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Temp" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow6Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewBlank" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/textViewTitle3" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/textViewInches" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/textViewFrac" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewHigh" />
+            <Spinner
+                android:id="@+id/spinnerHighFt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/FEET" />
+            <Spinner
+                android:id="@+id/spinnerHighInch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/INCH" />
+            <Spinner
+                android:id="@+id/spinnerHighFrac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/FRAC" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewLow" />
+            <Spinner
+                android:id="@+id/spinnerLowFt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/FEET" />
+            <Spinner
+                android:id="@+id/spinnerLowInch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/INCH" />
+            <Spinner
+                android:id="@+id/spinnerLowFrac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/FRAC" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+           <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewObGav" />
+           <EditText
+                android:id="@+id/editTextObGravity"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewTemp" />
+            <Spinner
+                android:id="@+id/spinnerObTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/Temp" />
+        </TableRow>
+    </TableLayout>
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textViewBSW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewBSW" />
+        <EditText
+            android:id="@+id/editTextBSWPercent"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewPercentAnd" />
+        <EditText
+            android:id="@+id/editTextBSWPercentTenth"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewPersent" />
+    </TableRow>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button
+                android:id="@+id/buttonSaveExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save &amp; Exit" />
+            <Button
+                android:id="@+id/buttonExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonExit" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</ScrollView><!-- From: file:/C:/Users/Skye/workspace/Oil%20Production%20Log%20v0.50/res/layout/salesticketui.xml -->

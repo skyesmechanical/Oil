@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Oil Production Log</string>
+    <string name="buttonCreateLease">Create Lease</string>
+	<string name="buttonEnterLogDataOil">Enter Oil Log Data</string>
+	<string name="buttonEnterLogDataWater">Enter Water Log Data</string>
+	<string name="buttonViewLogData">View Log Data</string>
+	<string name="buttonViewGraph">View Graph</string>
+	<string name="buttonSendData">Send Data</string>
+	<string name="buttonSaveData">Save Lease Data</string>
+	<string name="buttonClearData">Clear Field\'s</string>
+	<string name="buttonSaveAndNew">Save and New</string>
+	<string name="buttonExit">Exit w/o Saving</string>
+	<string name="buttonELD">Edit Lease Data</string>
+	<string name="buttonDelete">Delete</string>
+	<string name="textViewLeaseName">Lease Name: </string>
+	<string name="textViewNumTanks">Number of Tanks: </string>
+	<string name="textViewInjectionWell">Number of Injection Wells: </string>
+	<string name="textViewStockTanks">Number of Stock Tanks: </string>
+	<string name="textViewNumWells">Number of Oil Wells: </string>
+	<string name="textViewTitleLeaseName">Lease Name: </string>
+	<string name="textViewTitleDate">Date:</string>
+	<string name="textViewTankNum">Tank #</string>
+	<string name="textViewTitle3">Feet</string>
+	<string name="textViewTitle4" tools:ignore="TypographyFractions">Inches (1/4)</string>
+	<string name="textViewTitle5">Change</string>
+	<string name="textViewSpacer">_____________________________________________________</string>
+	<string name="textViewMTitle1">Meter #</string>
+	<string name="textViewMTitle2">Reading</string>
+	<string name="textViewMTitle3">Change</string>
+	<string name="textViewSoldTo">Sold To: </string>
+	<string name="textViewHigh">High</string>
+	<string name="textViewLow">Low</string>
+	<string name="textViewDelete">Delete lease: </string>
+	
+	
+    <string-array name="StockTankSize">
+        <item>Size</item>
+        <item>100</item>
+        <item>200</item>
+        <item>210</item>
+        <item>295</item>
+        <item>400</item>
+    </string-array>
+    
+    <string-array name="DataEnteredBy">
+        <item>aaa</item>
+        <item>bbb</item>
+        <item>ccc</item>
+        <item>Other</item>
+    </string-array>
+    
+    <style name="CalcButton">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>  
+    <style name="ParameterButton" parent="CalcButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.5</item>
+    </style>
+    <style name="KeypadButton" parent="CalcButton">
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="FunctionButton" parent="CalcButton">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">0.375</item>
+    </style>
+        <string name="buttonSalesTicketOil">Oil Sales Ticket</string>
+        <string name="textViewNumBarrels"># Barrels: </string>
+        <string name="tankNum">"Tank #: "</string>
+        <string name="textViewTicketNum">"Ticket #: "</string>
+        <string name="tempHigh">"Hi Temp: "</string>
+        <string name="lowTemp">"Low Temp: "</string>
+
+    <string-array name="FRAC">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <string-array name="FEET">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    
+    <string-array name="INCH">
+    	<item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+	</string-array>
+        
+    <string-array name="Temp">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    
+    
+    
+    <string name="textViewInches">Inch\'s</string>
+    <string name="textViewFrac">Frac</string>
+    <string name="textViewBlank">"           "</string>
+    <string name="textViewObGav">"Observed Gravity: "</string>
+    <string name="textViewTemp">"Temp: "</string>
+    <string name="radioButtonBS">B S and </string>
+    <string name="radioButtonW">W </string>
+    <string name="textViewPercentAnd"> &amp;</string>
+    <string name="textViewPersent">/10%</string>
+    <string name="textViewBSW">"B S &amp; W: "</string>
+    <string name="buttonDispOil">Display Oil Sales</string>
+    <string name="buttonDispWaterInj">Display Water Injection Data</string>
+    <string name="buttonBackToMain">Back</string>
+    <string name="textViewSelectLease">Select Lease:</string>
+    <string name="buttonEnterNotes">Enter Lease Notes</string>
+    <string name="buttonChangeDate">Change Date</string>
+    <string name="buttonSaveExit">Save &amp; Exit</string>
+    <string name="textViewCurrentDate">Current Date:  </string>
+    <string name="textViewTitle">Title</string>
+    <string name="textViewBody">Body Text</string>
+    <string name="buttonSave">Save</string>
+    <string name="buttonCut">Cut</string>
+    <string name="buttonCopy">Copy</string>
+    <string name="buttonPaste">Paste</string>
+        
+    <string name="oneNote">NoteView</string>
+    <string name="addNoteButton">New note</string>
+    <string name="mainHeader">Lease notes</string>
+    <string name="CtxMenuHeader">Choose action</string>
+    <string name="updateNoteButton">Update note</string>
+    <string name="validation">Please fill the title and/or content field</string>
+    
+    <!-- createview layout -->
+    <string name="noteTitle">Title</string>
+    <string name="noteContent">Content</string>
+    <string name="saveNoteButton">Save note</string>
+    
+        
+    <!-- context menu options -->
+    <string name="showNote">Show note</string>
+    <string name="editNote">Edit note</string>
+    <string name="removeNote">Remove note</string>
+    
+    <string name="titleHint">Enter title here</string>
+    
+    <string name="buttonSend">Send Data</string>
+    
+    <string name="textViewDone">DONE</string>
+    
+    <string name="textViewGatherData">Gathering Log Data..........................</string>
+    
+    <string name="textViewWriteOil">Writing Oil Gauge Reading................</string>
+    
+    <string name="textViewSTO">Writing Sales Ticket Data..................</string>
+    
+    <string name="textViewWaterMeter">Writing Water Meter Reading...........</string>
+    
+    <string name="textViewNotes">Writing Notes to File.........................</string>
+    
+    <string name="textViewSendTo">Send To:</string>
+    
+    <string name="textViewSTOString">test</string>	
+</resources>

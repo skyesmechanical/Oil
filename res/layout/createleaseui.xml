@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/scrollView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+<LinearLayout
+    	android:id="@+id/LinearLayout1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+
+		<TableRow
+        	android:id="@+id/tableRow1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" >
+	        <TextView
+    	        android:id="@+id/textViewLeaseName"
+        	    android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/textViewLeaseName" />
+	        <EditText
+    	        android:id="@+id/editTextLeaseName"
+            	android:layout_width="225dp"
+            	android:layout_height="wrap_content"
+            	android:inputType="text" >
+            	<requestFocus />
+        	</EditText>
+    	</TableRow>
+		<TableLayout
+		    android:id="@+id/tableLayoutMain"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+	        <TableRow
+	            android:id="@+id/tableRowOilWells"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	            <TextView
+    	            android:id="@+id/textViewNumWells"
+        	        android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+                	android:text="@string/textViewNumWells" />
+	            <EditText
+	                android:id="@+id/editTextNumberOfWells"
+	                android:layout_width="150dp"
+	                android:layout_height="wrap_content"
+	                android:inputType="number" />
+	        </TableRow>
+	        <TableRow
+	            android:id="@+id/tableRowInjWells"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	            <TextView
+    	            android:id="@+id/textViewInjectionWells"
+        	        android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+                	android:text="@string/textViewInjectionWell" />
+	            <EditText
+    	            android:id="@+id/editTextNumberOfInjectionWells"
+        	        android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+                	android:inputType="number" />
+	        </TableRow>
+	        <TableRow
+	            android:id="@+id/tableRow12"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+				<TextView
+    	            android:id="@+id/textViewStockTanks"
+        	        android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+                	android:text="@string/textViewStockTanks" />
+	            <EditText
+    	            android:id="@+id/editTextNumofStockTanks"
+        	        android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+                	android:inputType="number" />
+	        </TableRow>
+        </TableLayout>
+   		<TableLayout
+	   		android:id="@+id/tableLayout1"
+       		android:layout_width="fill_parent"
+       		android:layout_height="fill_parent" >
+	    </TableLayout> 
+	    
+	    <TableLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" >
+        	<TableRow
+	            android:id="@+id/tableRow10"
+    	        android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content" >
+        	   	<Button
+        			android:id="@+id/buttonSaveData"
+		        	android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+    		    	android:text="@string/buttonSaveData" />
+
+		    	<Button
+		    	    android:id="@+id/buttonExit"
+		    	    android:layout_width="wrap_content"
+		    	    android:layout_height="wrap_content"
+		    	    android:text="@string/buttonExit" />
+
+    		</TableRow>
+    	</TableLayout>
+	</LinearLayout>
+</ScrollView>

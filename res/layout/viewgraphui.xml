@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<LinearLayout
+    	android:id="@+id/LinearLayout1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+    	<TextView
+        	android:id="@+id/textViewTitleLease"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_horizontal"
+        	android:text="@string/textViewTitleLeaseName"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <LinearLayout
+    	    android:id="@+id/OilLayout"
+        	android:layout_width="match_parent"
+        	android:layout_height="250dp"
+        	android:orientation="vertical" >
+	    </LinearLayout>
+	    <LinearLayout
+        	android:id="@+id/WaterLayout"
+        	android:layout_width="match_parent"
+        	android:layout_height="250dp"
+        	android:orientation="vertical" >
+	    </LinearLayout>
+    	<TableRow
+        	android:id="@+id/tableRow2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" >
+	        <Button
+    	        android:id="@+id/buttonExit"
+        	    android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/buttonBackToMain" />
+    	</TableRow>
+	</LinearLayout>
+</ScrollView>
